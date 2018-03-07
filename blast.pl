@@ -13,7 +13,7 @@ GetOptions (
   "h|help" => \$help,
 );
 
-$out =~ s/\.gz$//;
+# $out =~ s/\.gz$//;
 
 my $blast_path = "/ncbi-blast-2.6.0+/bin";
 my $blast = $0;
